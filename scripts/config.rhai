@@ -1,8 +1,9 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Reinforcement Learning","Self-Supervised","Legged Robot","Quadruped"];
+let titles_model = ["Legged Robot","Quadruped","optimization"];
+let titles_method = ["Reinforcement Learning","Self-Supervised","control","locomotion","navigation","mpc","differential"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
+let authors_array = ["Koushil Sreenath", "Sergey Levine", "Lerrel Pinto","Yong Liu",
+                    "Wei Yang","Qiuguo Zhu","Marco Hutter","Jemin Hwangbo","Sangbae Kim","Xiaolong Wang","Wei Zhang"];
 
 let conferences = [
     // AI
@@ -12,7 +13,7 @@ let conferences = [
     // ML
     "ACML", "AISTATS", "ECML", "ICLR", "ICML", "ML4H", "NeurIPS", "NIPS", "UAI",
     // Robotics
-    "IROS","ICRA","CoRL"
+    "IROS","ICRA","CoRL","RAL","IEEE Robotics and Automation Letters","Science Robotics","IEEE Transactions on Robotics and Automation"
 ];
 
 let start = conferences.shift();
