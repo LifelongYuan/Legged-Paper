@@ -13,7 +13,7 @@ let conferences = [
     // ML
     "ACML", "AISTATS", "ECML", "ICLR", "ICML", "ML4H", "NeurIPS", "NIPS", "UAI",
     // Robotics
-    "IROS","ICRA","CoRL","RAL","IEEE Robotics and Automation Letters","Science Robotics","IEEE Transactions on Robotics and Automation"
+    "IROS","ICRA","CoRL","RAL","IEEE Robotics and Automation Letters","Science Robotics","IEEE Transactions on Robotics and Automation","TRO","RAL"
 ];
 
 let start = conferences.shift();
